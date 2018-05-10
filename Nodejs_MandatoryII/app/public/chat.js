@@ -1,4 +1,4 @@
-var socket = io.connect("http://localhost:3000");
+var socket = io.connect("http://10.130.176.138:3000");
 
 $(document).ready(function(){
     socket.emit("chat history", function(data){    
