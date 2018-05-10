@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(108, 207, 207);
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    margin-top: 25px;
+    width: 100%;
+}
+
+#chatInput {
+    text-align: center;
+}
+
+#btnSend {
+    background-color: gray;
+    color: white;
+}
+
+#chatroom {
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+    border-style: solid;
+    height: 400px;
+    width: 738px;
+    overflow: auto;
+}
+
+
+

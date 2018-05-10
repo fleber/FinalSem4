@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(108, 207, 207);
+    font-family: 'Exo 2', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.row {
+    width: 100%;
+}
+
+.form-group {
+    margin-top: 50px;
+}
+
+#signUpBtn, #logInBtn {
+    background-color: gray;
+    color: white;
+    border-color: gray;
+    width: 250px;
+}
+
+#buttonDiv {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#logInBtn {
+    margin-right: 80px;
+}

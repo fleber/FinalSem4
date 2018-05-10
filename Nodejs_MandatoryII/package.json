@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_mandatoryii",
+  "version": "1.0.0",
+  "description": "log into a chatroom, using sockets, database and ajax",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json app.js --watch app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lei & Felix",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "express-redirect": "^1.2.2",
+    "mocha": "^5.1.1",
+    "mongodb": "^2.2.35",
+    "mongoose": "^5.0.17",
+    "nodemailer": "^4.6.4",
+    "reload": "^2.2.2",
+    "socket.io": "^2.1.0"
+  }
+}
