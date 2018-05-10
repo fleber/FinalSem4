@@ -1,5 +1,5 @@
 const forTestUser = require("../app/forTestUser.js");
-const clientSide = require("../app/public/clientSide");
+
 
 const chai = require("chai");
 const assert = chai.assert;
@@ -9,4 +9,4 @@ describe("Make a user", () => {
         var testUser = forTestUser.makeAuser();
         assert.equal(testUser.userIsMade, false);
     });
-});
+}); 
